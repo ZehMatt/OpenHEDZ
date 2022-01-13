@@ -30,29 +30,11 @@
     <ClInclude Include="core\interop\variable.hpp" />
     <ClInclude Include="core\interop\win_min.hpp" />
     <ClInclude Include="core\memory.hpp" />
-    <ClInclude Include="directx\d3d.h" />
-    <ClInclude Include="directx\d3dcaps.h" />
-    <ClInclude Include="directx\d3drm.h" />
-    <ClInclude Include="directx\d3drmdef.h" />
-    <ClInclude Include="directx\d3drmobj.h" />
-    <ClInclude Include="directx\d3drmwin.h" />
-    <ClInclude Include="directx\d3dtypes.h" />
-    <ClInclude Include="directx\ddraw.h" />
-    <ClInclude Include="directx\dinput.h" />
-    <ClInclude Include="directx\dplay.h" />
-    <ClInclude Include="directx\dplobby.h" />
-    <ClInclude Include="directx\dsetup.h" />
-    <ClInclude Include="directx\dsound.h" />
-    <ClInclude Include="directx\dvp.h" />
-    <ClInclude Include="directx\fastfile.h" />
     <ClInclude Include="functions.hpp" />
     <ClInclude Include="game.hpp" />
     <ClInclude Include="gamestate.hpp" />
     <ClInclude Include="globals.hpp" />
     <ClInclude Include="utils\textdecompress.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="directx\d3dvec.inl" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

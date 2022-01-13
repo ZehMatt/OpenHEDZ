@@ -23,51 +23,6 @@
     <ClInclude Include="globals.hpp" />
     <ClInclude Include="functions.hpp" />
     <ClInclude Include="gamestate.hpp" />
-    <ClInclude Include="directx\ddraw.h">
-      <Filter>directx</Filter>
-    </ClInclude>
-    <ClInclude Include="directx\dinput.h">
-      <Filter>directx</Filter>
-    </ClInclude>
-    <ClInclude Include="directx\dplay.h">
-      <Filter>directx</Filter>
-    </ClInclude>
-    <ClInclude Include="directx\dplobby.h">
-      <Filter>directx</Filter>
-    </ClInclude>
-    <ClInclude Include="directx\dsetup.h">
-      <Filter>directx</Filter>
-    </ClInclude>
-    <ClInclude Include="directx\dsound.h">
-      <Filter>directx</Filter>
-    </ClInclude>
-    <ClInclude Include="directx\dvp.h">
-      <Filter>directx</Filter>
-    </ClInclude>
-    <ClInclude Include="directx\fastfile.h">
-      <Filter>directx</Filter>
-    </ClInclude>
-    <ClInclude Include="directx\d3d.h">
-      <Filter>directx</Filter>
-    </ClInclude>
-    <ClInclude Include="directx\d3dcaps.h">
-      <Filter>directx</Filter>
-    </ClInclude>
-    <ClInclude Include="directx\d3drm.h">
-      <Filter>directx</Filter>
-    </ClInclude>
-    <ClInclude Include="directx\d3drmdef.h">
-      <Filter>directx</Filter>
-    </ClInclude>
-    <ClInclude Include="directx\d3drmobj.h">
-      <Filter>directx</Filter>
-    </ClInclude>
-    <ClInclude Include="directx\d3drmwin.h">
-      <Filter>directx</Filter>
-    </ClInclude>
-    <ClInclude Include="directx\d3dtypes.h">
-      <Filter>directx</Filter>
-    </ClInclude>
     <ClInclude Include="utils\textdecompress.hpp">
       <Filter>utils</Filter>
     </ClInclude>
@@ -115,13 +70,5 @@
     <Filter Include="core\interop">
       <UniqueIdentifier>{7e64bfa1-ffb4-4414-acd1-603075829775}</UniqueIdentifier>
     </Filter>
-    <Filter Include="directx">
-      <UniqueIdentifier>{bb1f766b-8b78-442e-aa11-1198c5879d2e}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="directx\d3dvec.inl">
-      <Filter>directx</Filter>
-    </None>
   </ItemGroup>
 </Project>
