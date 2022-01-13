@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libopenhedz", "src\openhedz\libopenhedz.vcxproj", "{CBAEFFFE-E3B6-4A83-8FAB-71CD3EB7B9C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openhedz", "src\openhedz-wrapper\openhedz.vcxproj", "{84A973AA-91C7-4C1A-99FA-5B15C7DDBE31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBAEFFFE-E3B6-4A83-8FAB-71CD3EB7B9C3}.Debug|x86.ActiveCfg = Debug|Win32
+		{CBAEFFFE-E3B6-4A83-8FAB-71CD3EB7B9C3}.Debug|x86.Build.0 = Debug|Win32
+		{CBAEFFFE-E3B6-4A83-8FAB-71CD3EB7B9C3}.Release|x86.ActiveCfg = Release|Win32
+		{CBAEFFFE-E3B6-4A83-8FAB-71CD3EB7B9C3}.Release|x86.Build.0 = Release|Win32
+		{84A973AA-91C7-4C1A-99FA-5B15C7DDBE31}.Debug|x86.ActiveCfg = Debug|Win32
+		{84A973AA-91C7-4C1A-99FA-5B15C7DDBE31}.Debug|x86.Build.0 = Debug|Win32
+		{84A973AA-91C7-4C1A-99FA-5B15C7DDBE31}.Release|x86.ActiveCfg = Release|Win32
+		{84A973AA-91C7-4C1A-99FA-5B15C7DDBE31}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5917F85E-AD27-461F-85FF-5F713A892025}
+	EndGlobalSection
+EndGlobal

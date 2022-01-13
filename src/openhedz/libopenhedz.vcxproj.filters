@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="utils\textdecompress.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="core\interop\hooks.cpp">
+      <Filter>core\interop</Filter>
+    </ClCompile>
+    <ClCompile Include="core\interop\interop.cpp">
+      <Filter>core\interop</Filter>
+    </ClCompile>
+    <ClCompile Include="core\diagnostics\logging.cpp">
+      <Filter>core\diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="core\diagnostics\debugging.cpp">
+      <Filter>core\diagnostics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.hpp" />
+    <ClInclude Include="globals.hpp" />
+    <ClInclude Include="functions.hpp" />
+    <ClInclude Include="gamestate.hpp" />
+    <ClInclude Include="directx\ddraw.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\dinput.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\dplay.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\dplobby.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\dsetup.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\dsound.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\dvp.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\fastfile.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\d3d.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\d3dcaps.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\d3drm.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\d3drmdef.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\d3drmobj.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\d3drmwin.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\d3dtypes.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\textdecompress.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\interop\interop.hpp">
+      <Filter>core\interop</Filter>
+    </ClInclude>
+    <ClInclude Include="core\interop\variable.hpp">
+      <Filter>core\interop</Filter>
+    </ClInclude>
+    <ClInclude Include="core\interop\win_min.hpp">
+      <Filter>core\interop</Filter>
+    </ClInclude>
+    <ClInclude Include="core\interop\function.hpp">
+      <Filter>core\interop</Filter>
+    </ClInclude>
+    <ClInclude Include="core\interop\hooks.hpp">
+      <Filter>core\interop</Filter>
+    </ClInclude>
+    <ClInclude Include="core\diagnostics\diagnostics.hpp">
+      <Filter>core\diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="core\diagnostics\logging.hpp">
+      <Filter>core\diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="core\diagnostics\assertion.hpp">
+      <Filter>core\diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="core\diagnostics\debugging.hpp">
+      <Filter>core\diagnostics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{89353ed9-3788-4a36-ba22-c373a73f6918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{94b576bd-92b9-42ea-aa33-ccc8efc7ca72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\diagnostics">
+      <UniqueIdentifier>{7f6cd1a2-3da8-4d7f-ac80-dd8a9b61c9eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\interop">
+      <UniqueIdentifier>{7e64bfa1-ffb4-4414-acd1-603075829775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directx">
+      <UniqueIdentifier>{bb1f766b-8b78-442e-aa11-1198c5879d2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="directx\d3dvec.inl">
+      <Filter>directx</Filter>
+    </None>
+  </ItemGroup>
+</Project>
